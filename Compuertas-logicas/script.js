@@ -46,6 +46,22 @@ function nextQuestion() {
     } else {
         document.getElementById("game").innerHTML = `<h2>¡Juego terminado!</h2><p>Puntuación final: ${score}</p>`;
     }
+    
+}
+
+function updateProgress() {
+    const progress = (currentQuestion / questions.length) * 100;
+    document.getElementById("progress-bar").style.width = `${progress}%`;
+}
+
+function nextQuestion() {
+    currentQuestion++;
+    if (currentQuestion < questions.length) {
+        loadQuestion();
+        updateProgress(); // Actualiza la barra de progreso
+    } else {
+        document.getElementById("game").innerHTML = `<h2>¡Juego terminado!</h2><p>Puntuación final: ${score}</p>`;
+    }
 }
 
 loadQuestion();

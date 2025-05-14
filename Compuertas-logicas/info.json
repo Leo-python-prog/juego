@@ -1,0 +1,18 @@
+{
+  "juego-compuertas-logicas": {
+    "nombre": "Juego de Compuertas Lógicas",
+    "descripcion": "Juego educativo sobre compuertas lógicas, en el que los jugadores responden preguntas para mejorar su comprensión de la lógica digital.",
+    "instrucciones": [
+      "Lee la pregunta sobre compuertas lógicas.",
+      "Haz clic en la respuesta correcta para sumar puntos.",
+      "Si fallas, se mostrará un mensaje antes de avanzar automáticamente.",
+      "El juego continúa hasta que se respondan todas las preguntas."
+    ],
+    "temas": [
+      "Lógica digital",
+      "Compuertas AND, OR, NOT, XOR",
+      "Pensamiento computacional"
+    ],
+    "url": "https://tusitio.com/juego-compuertas-logicas"
+  }
+}
